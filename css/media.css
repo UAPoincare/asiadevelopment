@@ -7,17 +7,100 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .header__title {
+        font-size: 50px;
+    }
+    nav ul {
+        margin-right: 0;
+    }
+    nav ul li {
+        margin-right: 25px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    .news__carousel__img {
+        width: 100%;
+        max-width: 450px;
+    }
+    .news-car {
+        margin: 0 50px;
+    }
+    .header__logo {
+        font-size: 15px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .header__title {
+        font-size: 40px;
+    }
+    .prev_button,
+    .next_button {
+        display: none;
+    }
+    .subscribe__email {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 440px;
+    }
+    .subscribe_submit {
+        margin: 0 auto;
+        display: block;
+    }
+    .contact-us__name,
+    .contact-us__email {
+        width: 440px;
+    }
+    .contact-us__message {
+        width: 440px;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .top_mnu {
+        display: none;
+    }
+    .header__wrapper {
+        position: relative;
+        background: transparent;
+    }
+    .news-car {
+            margin: 0 20px;
+        }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .header__title {
+        font-size: 30px;
+    }
+    .about-us__items__item_wrapper {
+        width: 300px;
+        height: 300px;
+    }
+    .about-us__items__item {
+        width: 300px;
+        height: 300px;
+    }
+    .about-us__items__item__title {
+        padding-top: 25px;
+    }
+    .subscribe__email {
+        width: 300px;
+    }
+    .contact-us__name,
+    .contact-us__email {
+        width: 300px;
+    }
+    .contact-us__message {
+        width: 300px;
+    }
+    .contact-us__address {
+        font-size: 15px;
+    }
 }
 
 /* Custom, iPhone Retina */
